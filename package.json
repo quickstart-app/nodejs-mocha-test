@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-mocha-test",
+  "version": "0.0.0",
+  "description": "Testing mocha with Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosielFaleiros/nodejs-mocha-test.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mocha",
+    "test"
+  ],
+  "author": "JosielFaleiros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JosielFaleiros/nodejs-mocha-test/issues"
+  },
+  "homepage": "https://github.com/JosielFaleiros/nodejs-mocha-test#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  }
+}
