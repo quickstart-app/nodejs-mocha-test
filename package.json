@@ -4,7 +4,7 @@
   "description": "Testing mocha with Node JS",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "./test/"
   },
   "scripts": {
     "test": "mocha"
