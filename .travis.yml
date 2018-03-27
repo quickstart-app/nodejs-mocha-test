@@ -7,5 +7,5 @@ node_js:
 install:
   - npm install
 script:
-  - sonar-scanner -Dsonar.language=js -Dsonar.profile=node -Dsonar.projectKey=test-mocha -Dsonar.tests=test -Dsonar.organization=rafaelnsantos-github -Dsonar.sources=src -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
+  - sonar-scanner -Dsonar.language=js -Dsonar.projectKey=test-mocha -Dsonar.tests=test -Dsonar.organization=rafaelnsantos-github -Dsonar.sources=src -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
   - npm test
