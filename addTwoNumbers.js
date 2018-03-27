@@ -1,4 +1,4 @@
 function addTwoNumbers (x, y) {
-    return -1;
+    return x + y;
 }
 module.exports = addTwoNumbers;
