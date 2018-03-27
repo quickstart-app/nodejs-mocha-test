@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var addTwoNumbers = require('../addTwoNumbers');
+var addTwoNumbers = require('../src/addTwoNumbers');
 
 describe('addTwoNumbers()', function () {
     it ('should add two numbers', function () {
