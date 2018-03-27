@@ -1,4 +1,7 @@
 # nodejs-mocha-test
+
+[![Travis Build Status](https://travis-ci.org/quickstart-app/nodejs-mocha-test.svg?branch=master)](https://travis-ci.org/quickstart-app/nodejs-mocha-test)
+
 Testing node js applications with mocha
 
 ## Start with $
