@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "description": "Testing mocha with Node JS",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
