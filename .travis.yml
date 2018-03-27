@@ -8,4 +8,4 @@ install:
   - npm install
 script:
   - npm test
-  - sonar-scanner -Dsonar.language=js -Dsonar.projectKey=test-mocha -Dsonar.tests=test -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info -Dsonar.organization=rafaelnsantos-github -Dsonar.sources=src -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
+  - sonar-scanner -Dsonar.language=js -Dsonar.projectKey=test-mocha -Dsonar.tests=test -Dsonar.javascript.lcov.reportPath=coverage/lcov.info -Dsonar.organization=rafaelnsantos-github -Dsonar.sources=src -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
