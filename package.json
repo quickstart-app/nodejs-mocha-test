@@ -3,11 +3,8 @@
   "version": "0.0.0",
   "description": "Testing mocha with Node JS",
   "main": "index.js",
-  "directories": {
-    "test": "./test/"
-  },
   "scripts": {
-    "test": "nyc --reporter=lcov --reporter=text mocha"
+    "test": "nyc --reporter=lcov --reporter=text mocha \"./src/**/*.test.js\""
   },
   "repository": {
     "type": "git",
