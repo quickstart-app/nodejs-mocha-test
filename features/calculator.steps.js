@@ -28,6 +28,10 @@ When('I press mul', function () {
   this.result = calc.mul()
 });
 
+When('I press pow', function () {
+  this.result = calc.pow()
+});
+
 Then('the variable should contain {int}', function(number) {
   expect(this.result).to.eql(number)
 });
