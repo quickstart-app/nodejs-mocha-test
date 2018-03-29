@@ -11,4 +11,7 @@ module.exports = class {
   mul () {
     return this.x * this.y
   }
+  pow () {
+    return this.x ** this.y
+  }
 }
