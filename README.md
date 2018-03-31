@@ -14,6 +14,18 @@ npm i
 
 ## Available Scripts
 
-Run the tests defined in /test folder
+Run the tests defined with Cucumber, and see the coverage:
+
+`npm coverage-cucumber`
+
+Run the tests defined with Cucumber:
+
+`npm cucumber`
+
+Run the tests with mocha, and see the coverage:
+
+`npm coverage-mocha`
+
+Run the tests defined in the pattern: /src/**/*.test.js with mocha:
 
 `npm test`
