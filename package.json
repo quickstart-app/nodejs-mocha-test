@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha \"./src/**/*.test.js\"",
-    "coverage-cucumber": "nyc --reporter=text npm run cucumber",
-    "coverage-mocha": "nyc --reporter=text npm test",
+    "coverage-cucumber": "nyc --reporter=lcov --reporter=text npm run cucumber",
+    "coverage-mocha": "nyc --reporter=lcov --reporter=text npm test",
     "cucumber": "cucumber-js"
   },
   "repository": {
